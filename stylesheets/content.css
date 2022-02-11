@@ -1,0 +1,40 @@
+.svg {
+  cursor: url("https://img.icons8.com/office/80/000000/year-of-rooster.png"), auto;
+}
+.png {
+  cursor: url("https://img.icons8.com/office/80/000000/year-of-rooster.png"), auto;
+}
+
+.jpeg {
+  cursor: url("https://img.icons8.com/office/80/000000/year-of-rooster.png"), auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: black;
+  display: inline-block;
+  position: relative;
+  border: 1px solid white;
+}
+
+.field {
+  width: 600px;
+  height: 450px;
+  background-image: url('../img/field.jpeg');
+}
+
+#draggable {
+	background: orange;
+	color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+  border-radius: 100%;
+	cursor: move;
+}
+
+#draggable:hover {
+	background: #e69500;
+}
